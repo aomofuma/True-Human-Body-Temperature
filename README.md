@@ -1,5 +1,3 @@
-# True Human Body Temperature
-
 ```python
 import pandas as pd
 import numpy as np
