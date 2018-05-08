@@ -1,3 +1,5 @@
+### True Human Body Temperature
+
 ```python
 import pandas as pd
 
@@ -28,7 +30,7 @@ print(df.head())
     4         98.0      F        73.0
     
 
-1. Is the distribution of body temperatures normal? 
+## 1. Is the distribution of body temperatures normal? 
 
 
 ```python
@@ -48,7 +50,7 @@ _ = plt.ylabel('PDF')
 # the disribution is Normal.
 ```
 
-2. is the sample size large enough? Are the observations Independent
+## 2. is the sample size large enough? Are the observations Independent
 
 
 ```python
@@ -60,7 +62,7 @@ print('There are', len(df), 'samples over', len(list(df.columns)), 'variables.')
 
 Thus, we have sufficient data to test our hypothesis
 
-3. Is the true population mean really 98.6 degrees F?
+## 3. Is the true population mean really 98.6 degrees F?
 
 
 ```python
@@ -100,8 +102,8 @@ def draw_bs_reps(data, func, size=1, seed=1):
 
 We want to compare the sample mean to the observed population mean
 
-### H0: M = 98.6
-### H1: M < 98.6
+#### H0: M = 98.6
+#### H1: M < 98.6
 
 
 ```python
@@ -168,7 +170,7 @@ print(z_stat)
 
 pvalue is less than 1% so we have reason to reject the null
 
-4. Draw a small sample of size 10 from the data and repeat both frequentist tests.
+## 4. Draw a small sample of size 10 from the data and repeat both frequentist tests.
 
 
 ```python
@@ -193,11 +195,11 @@ print(z_test_small)
     (2.6622224660335685, 0.007762655490041436)
     
 
-5. At what temperature should we consider someone's temperature to be "abnormal"?
+## 5. At what temperature should we consider someone's temperature to be "abnormal"?
 
 From the confidence interval computed above, we can say with 95% confidence that the mean body temperature should fall between 98.47F and 98.73F
 
-6. Is there a significant difference between males and females in normal temperature?
+## 6. Is there a significant difference between males and females in normal temperature?
 
 
 ```python
