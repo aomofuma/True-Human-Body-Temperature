@@ -1,24 +1,17 @@
-### True Human Body Temperature
+# True Human Body Temperature
 
 ```python
 import pandas as pd
-
-df = pd.read_csv('data/human_body_temperature.csv')
-```
-
-
-```python
 import numpy as np
 import matplotlib.pyplot as plt
+import seaborn as sns
 from scipy import stats
 from scipy.stats import norm
-import seaborn as sns
-
-sns.set()
 ```
 
-
 ```python
+df = pd.read_csv('data/human_body_temperature.csv')
+sns.set()
 print(df.head())
 ```
 
