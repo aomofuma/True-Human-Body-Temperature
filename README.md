@@ -116,7 +116,7 @@ print('p_value = ', p_value)
     p_value =  0.4911
     
 
-None of the replicate values had a result similar to the given mean of 98.6. Thus the null hypothesis is false.
+Bootstrap hypothesis returns a p-value greater than 0.05 which indicates that the result is not statistically significant.
 
 
 ```python
