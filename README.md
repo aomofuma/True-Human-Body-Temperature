@@ -131,7 +131,7 @@ print(t_test)
     Ttest_1sampResult(statistic=-5.4548232923645195, pvalue=2.4106320415561276e-07)
     
 
-We can see from the p-value that it is unlikely we would get a sample mean of 98.25 if the true mean were 98.6. In this case, we can reject the null that the mean is 98.6
+We can see from the p-value that the p-value from the t-test is less than 0.05 oroviding strong evidence against the null hypothesis.
 
 
 ```python
@@ -145,7 +145,7 @@ print('The 95% confidence interval is', conf_int)
 ```
 
     The 95% confidence interval is [96.7225 99.4775]
-    
+The mean 98.6 falls between the confidence interval. 
 
 
 ```python
