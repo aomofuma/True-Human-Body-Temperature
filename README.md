@@ -222,4 +222,4 @@ print(male_female_sample)
     Ttest_indResult(statistic=-2.2854345381656103, pvalue=0.02393188312239561)
     
 
-Used a two-sample t-test because we are comparing the mean of the males to the mean of the females. We obtained a low p-value whihc indicates that the value observed is not by chance making it unlikely that the two samples have the same mean. Thus, there is a statistical significance not a practical significance because the difference between the two values is minute.
+Used a two-sample t-test because we are comparing the mean of the males to the mean of the females. We obtained a low p-value which indicates that the value observed is not by chance making it unlikely that the two samples have the same mean. Thus, there is a evidence against the null hypothesis.
